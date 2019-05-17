@@ -30,7 +30,7 @@ namespace ThreadPoolTimer
 {
 
 TimerRunLoop::TimerRunLoop() :
-    _thread(NULL)
+    _thread(nullptr), _running(false)
 {
     _start();
 }
